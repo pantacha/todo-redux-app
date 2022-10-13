@@ -1,0 +1,10 @@
+
+<ul class="todo-list">
+  
+    <app-todo-item *ngFor="let todo of todos | filterToDo: filterSelected"
+                   [todo]="todo">
+    </app-todo-item>
+    
+</ul>
+
+

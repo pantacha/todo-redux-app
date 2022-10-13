@@ -1,0 +1,8 @@
+<header class="todoapp">
+  <h1>todos</h1>
+  <input class="new-todo" 
+         placeholder="What needs to be done?"
+         [formControl]="txtInput"
+         (keyup.enter)="add()"
+         autofocus>
+</header>
